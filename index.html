@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuralence - Your Technology Partner</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="images/logo.png" alt="Neuralence Logo" height="40" class="me-2">
+                Neuralence
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-md-6" data-aos="fade-right">
+                    <h1 class="display-4 fw-bold">Welcome to Neuralence</h1>
+                    <p class="lead">Your trusted partner in modern technology solutions</p>
+                    <a href="#services" class="btn btn-primary btn-lg">Explore Services</a>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <img src="images/hero-image.png" alt="Neuralence Hero" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="row g-4">
+                <!-- .NET MVC -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg" alt=".NET MVC" class="img-fluid service-logo">
+                        </div>
+                        <div class="service-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>.NET MVC</h3>
+                        <p>Robust web applications with Model-View-Controller architecture using Microsoft's proven framework</p>
+                    </div>
+                </div>
+                <!-- .NET Core -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg" alt=".NET Core" class="img-fluid service-logo">
+                        </div>
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>.NET Core</h3>
+                        <p>High-performance, cross-platform applications with modern C# and cloud-ready architecture</p>
+                    </div>
+                </div>
+                <!-- Angular -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/angular.svg" alt="Angular" class="img-fluid service-logo">
+                        </div>
+                        <div class="service-icon">
+                            <i class="fab fa-angular"></i>
+                        </div>
+                        <h3>Angular</h3>
+                        <p>Dynamic single-page applications with TypeScript and enterprise-grade architecture</p>
+                    </div>
+                </div>
+                <!-- MEAN Stack -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mongodb.svg" alt="MEAN Stack" class="img-fluid service-logo">
+                        </div>
+                        <div class="service-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>MEAN Stack</h3>
+                        <p>Full-stack JavaScript development with MongoDB, Express.js, Angular, and Node.js</p>
+                    </div>
+                </div>
+                <!-- MERN Stack -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg" alt="MERN Stack" class="img-fluid service-logo">
+                        </div>
+                        <div class="service-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <h3>MERN Stack</h3>
+                        <p>Modern web applications with MongoDB, Express.js, React, and Node.js</p>
+                    </div>
+                </div>
+                <!-- AI/ML -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tensorflow.svg" alt="AI & ML" class="img-fluid service-logo">
+                        </div>
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>AI & ML</h3>
+                        <p>Intelligent automation and predictive analytics with cutting-edge machine learning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="mb-4">Why Choose Neuralence?</h2>
+                    <div class="feature-list">
+                        <div class="feature-item mb-4">
+                            <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+                            <div class="feature-content">
+                                <h5>Cutting-Edge Technology</h5>
+                                <p>We leverage the latest technologies to deliver innovative solutions that keep you ahead of the competition.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item mb-4">
+                            <div class="feature-icon"><i class="fas fa-users"></i></div>
+                            <div class="feature-content">
+                                <h5>Expert Team</h5>
+                                <p>Our team of experienced developers and AI specialists brings years of expertise to every project.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item mb-4">
+                            <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                            <div class="feature-content">
+                                <h5>On-Time Delivery</h5>
+                                <p>We consistently deliver projects on time without compromising quality.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item mb-4">
+                            <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                            <div class="feature-content">
+                                <h5>Quality Assurance</h5>
+                                <p>Rigorous testing and quality control processes ensure every solution meets the highest standards.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center align-items-center" data-aos="fade-left">
+                    <div class="logo-sphere-wrapper">
+                        <div class="logo-sphere">
+                            <div class="logo-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/dotnet.svg" alt=".NET"></div>
+                            <div class="logo-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/angular.svg" alt="Angular"></div>
+                            <div class="logo-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg" alt="React"></div>
+                            <div class="logo-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nodedotjs.svg" alt="Node.js"></div>
+                            <div class="logo-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/python.svg" alt="Python"></div>
+                            <div class="logo-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/amazonaws.svg" alt="AWS"></div>
+                            <div class="logo-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftazure.svg" alt="Azure"></div>
+                            <div class="logo-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tensorflow.svg" alt="AI/ML"></div>
+                            <div class="logo-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mongodb.svg" alt="MongoDB"></div>
+                            <div class="logo-item"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/microsoftsqlserver.svg" alt="SQL Server"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6 mb-4" data-aos="fade-up">
+                    <div class="stat-card">
+                        <div class="stat-number">150+</div>
+                        <div class="stat-label">Projects Delivered</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-card">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Support Available</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="awards-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Awards & Recognition</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-2 col-sm-4 col-6 mb-4" data-aos="fade-up">
+                    <div class="award-card">
+                        <i class="fas fa-trophy"></i>
+                        <h6>Best Innovation</h6>
+                        <p>2024</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="award-card">
+                        <i class="fas fa-star"></i>
+                        <h6>Top Developer</h6>
+                        <p>2024</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="award-card">
+                        <i class="fas fa-medal"></i>
+                        <h6>Excellence Award</h6>
+                        <p>2023</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="award-card">
+                        <i class="fas fa-crown"></i>
+                        <h6>Industry Leader</h6>
+                        <p>2023</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="award-card">
+                        <i class="fas fa-gem"></i>
+                        <h6>Quality Excellence</h6>
+                        <p>2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">What Our Clients Say</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Neuralence delivered exceptional AI solutions that transformed our business processes. Their expertise in machine learning is unmatched."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/client1.jpg" alt="John Smith" class="author-image">
+                            <div class="author-info">
+                                <h6>John Smith</h6>
+                                <span>CEO, TechCorp</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"The MERN stack application they built for us exceeded all expectations. Professional, efficient, and innovative team."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/client2.jpg" alt="Sarah Johnson" class="author-image">
+                            <div class="author-info">
+                                <h6>Sarah Johnson</h6>
+                                <span>CTO, StartupXYZ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Outstanding .NET Core development services. They delivered our enterprise solution on time and within budget."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/client3.jpg" alt="Michael Brown" class="author-image">
+                            <div class="author-info">
+                                <h6>Michael Brown</h6>
+                                <span>Director, Enterprise Solutions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="contact-bg-shapes"></div>
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h6 class="section-subtitle">Get In Touch</h6>
+                <h2 class="section-title">Let's Build Something Amazing</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="contact-card glass-card">
+                        <div class="contact-card-inner">
+                            <!-- Left Side: Contact Form -->
+                            <div class="contact-form-col" data-aos="fade-right">
+                                <h3 class="form-title">Send Us a Message</h3>
+                                <form id="contactForm" class="modern-form" autocomplete="off">
+                                    <div class="form-group floating">
+                                        <input type="text" id="name" class="form-control" required>
+                                        <label for="name">Your Name</label>
+                                        <div class="focus-line"></div>
+                                    </div>
+                                    
+                                    <div class="form-group floating">
+                                        <input type="email" id="email" class="form-control" required>
+                                        <label for="email">Email Address</label>
+                                        <div class="focus-line"></div>
+                                    </div>
+                                    
+                                    <div class="form-group floating">
+                                        <input type="text" id="subject" class="form-control" required>
+                                        <label for="subject">Subject</label>
+                                        <div class="focus-line"></div>
+                                    </div>
+                                    
+                                    <div class="form-group floating">
+                                        <textarea id="message" class="form-control" rows="4" required></textarea>
+                                        <label for="message">Your Message</label>
+                                        <div class="focus-line"></div>
+                                    </div>
+                                    
+                                    <button type="submit" class="btn-send-message">
+                                        <span class="btn-text">Send Message</span>
+                                        <span class="btn-icon">
+                                            <i class="fas fa-paper-plane"></i>
+                                        </span>
+                                    </button>
+                                </form>
+                            </div>
+                            
+                            <!-- Right Side: Contact Info -->
+                            <div class="contact-info-col" data-aos="fade-left">
+                                <div class="contact-info-modern">
+                                    <div class="info-header">
+                                        <h3>Contact Information</h3>
+                                        <p>Fill out the form or reach us directly</p>
+                                    </div>
+                                    
+                                    <div class="info-item">
+                                        <div class="info-icon">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div class="info-content">
+                                            <h4>Email Us</h4>
+                                            <a href="mailto:contact@neuralence.com">contact@neuralence.com</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="info-item">
+                                        <div class="info-icon">
+                                            <i class="fas fa-phone-alt"></i>
+                                        </div>
+                                        <div class="info-content">
+                                            <h4>Call Us</h4>
+                                            <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="info-item">
+                                        <div class="info-icon">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="info-content">
+                                            <h4>Visit Us</h4>
+                                            <p>123 Tech Street, Silicon Valley,<br>CA 94025, United States</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="social-links">
+                                        <p class="follow-us">Follow Us:</p>
+                                        <div class="social-icons">
+                                            <a href="#" class="social-icon" title="LinkedIn">
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </a>
+                                            <a href="#" class="social-icon" title="GitHub">
+                                                <i class="fab fa-github"></i>
+                                            </a>
+                                            <a href="#" class="social-icon" title="Twitter">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                            <a href="#" class="social-icon" title="Dribbble">
+                                                <i class="fab fa-dribbble"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 Neuralence. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/sphere.js"></script>
+</body>
+</html>
